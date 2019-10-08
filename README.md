@@ -27,7 +27,7 @@ We can structure this in the form of a simple transition table
 |Sunny    |     0.9   |     0.1|
 |Rainy    |     0.5   |     0.5|
 
-## Steps
+## Steps:c
 1) In this project, The first Step was to create a transition table. The transition table describes the probability distribution of of given text(lyrics).
 Each 'K' characters in the text(lyrics) act as a key in dictionary. Then for each key('K' characters in the text ) we again create a dictionary of what the next
 predicted character can be, we count the occurence of each type of predicted character and find the probability.
@@ -39,4 +39,8 @@ predicted character can be, we count the occurence of each type of predicted cha
 So, for sampling we use np.random.choice() which returns a random element of a given list based on probability provided
 
  
+## Note:
+- Markov chain may be able to mimic the writing style of an author based on word frequencies, it would be unable to produce text that contains any meaning. We can use it to generate similar looking lyrics, code, speech, novel ,etc.
+
+- While it can generate similar looking content, this content is not context dependent. It can only replicate the  authors writing style based on word frequencies.
 
