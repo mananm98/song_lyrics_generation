@@ -28,8 +28,8 @@ We can structure this in the form of a simple transition table
 |Rainy    |     0.5   |     0.5|
 
 ## Steps:
-1) In this project, The first Step was to create a transition table. The transition table describes the probability distribution of of given text(lyrics).
-Each 'K' characters in the text(lyrics) act as a key in dictionary. Then for each key('K' characters in the text ) we again create a dictionary of what the next
+1) In this project, The first Step was to create a transition table. The transition table describes the probability distribution of given text (i.e lyrics).
+Each 'K' characters in the text act as a key in dictionary. Then for each key('K' characters in the text ) we again create a dictionary of what the next
 predicted character can be, we count the occurence of each type of predicted character and find the probability.
 
 ![](images/img2.png)
