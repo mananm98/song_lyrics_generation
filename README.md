@@ -35,6 +35,8 @@ predicted character can be, we count the occurence of each type of predicted cha
 ![](images/img2.png)
 
 
-2) After we have created the dictionary of probabilities(transition table), The next step is to sample new characters based on the dictionary of probabilities.
+2) After we have created the dictionary of probabilities(transition table), The next step is to sample new characters based on the dictionary of probabilities. For sampling we will not just return the next character with highest probability as this will not allow other characters to be generated.
+So, for sampling we use np.random.choice() which returns a random element of a given list based on probability provided
+
  
 
