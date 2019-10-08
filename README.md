@@ -13,9 +13,19 @@ For example, lets say that you have to make markov chain model of weather condit
   P(S->R) : Probability of a rainy day after a sunny day = 0.1
   
 Then the markov model will look like this:-
-![](images/img1.jpg)
+
+
+
+![](images/img1.png)
+
+
+
 We can structure this in the form of a simple transition table 
 
+|   weather | Sunny   |  Rainy |
+|:-------:| :--------:|:------:|
+|Sunny    |     0.9   |     0.1|
+|Rainy    |     0.5   |     0.5|
 
 ## Steps
 1) In this project, The first Step was to create a transition table. The transition table describes the probability distribution of of given text(lyrics).
